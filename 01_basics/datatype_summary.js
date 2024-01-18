@@ -30,3 +30,25 @@ const myFunction=function(params) {
 }
 
 
+// *****************************************************************
+
+// stack(primitive),heap(non primitive)
+
+let myYoutubeName="siddhRTH"
+
+let anotherYoutubeName=myYoutubeName
+anotherYoutubeName="chai"
+
+console.log(myYoutubeName);
+console.log(anotherYoutubeName);
+
+let userOne={
+    email:"djnswjd@gmail.com",
+upi:"sid@ybl"
+}
+let userTwo=userOne
+userTwo.email="sid@gmail.com"
+console.log(userOne.email);
+console.log(userTwo.email);
+
+
